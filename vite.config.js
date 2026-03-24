@@ -5,7 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   preview: {
-    // Required when `vite preview` is used behind Render / other hosts (not localhost)
     allowedHosts: true,
   },
 })
